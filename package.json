@@ -1,0 +1,28 @@
+{
+  "name": "fs-ui",
+  "description": "File System User Interface",
+  "keywords": [
+    "file",
+    "system",
+    "user",
+    "interface"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/chbrown/fs-ui",
+  "repository": "git://github.com/chbrown/fs-ui.git",
+  "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
+  "license": "MIT",
+  "main": "main.js",
+  "devDependencies": {
+    "async": "*",
+    "clean-css": "*",
+    "flow-copy": "*",
+    "less": "*",
+    "lodash": "*",
+    "moment": "*",
+    "notify-ui": "*",
+    "react": "*",
+    "typescript": "next",
+    "watsh": "*"
+  }
+}
