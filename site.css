@@ -6,7 +6,14 @@ button,div,input,main,nav,section,span,textarea{box-sizing:border-box}
 section{margin-top:5px;margin-bottom:5px;padding-top:5px;padding-bottom:5px}
 .vpad{padding-top:10px;padding-bottom:10px}
 .hpad{padding-left:10px;padding-right:10px}
-body{background-color:#FDFDFD;font-family:Arial,sans-serif}
-main{display:flex}
-main .left,main .right{width:50%;flex-grow:1}
-.container{margin-left:2ch}
+body{background-color:#FDFDFD;font:12px Arial,sans-serif}
+input{width:100%}
+.row{display:flex}
+.row .left,.row .right{width:50%;flex-grow:1}
+.pair{border-top:1px solid #000;color:gray}
+.pair:last-child{border-top:none}
+.pair ins{color:#00c800}
+.pair del{color:#c80000}
+.pair .children{margin-left:2ch}
+.notification-container{position:fixed;top:0;left:0;right:0;z-index:1000;vertical-align:middle;text-align:center;padding:10px;pointer-events:none}
+.notification{display:inline-block;vertical-align:middle;background-color:rgba(0,0,0,.66);border:1px solid rgba(0,0,0,.9);color:#DDD;border-radius:2px;padding:5px;margin:5px;pointer-events:auto}

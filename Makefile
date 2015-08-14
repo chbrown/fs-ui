@@ -1,5 +1,5 @@
 BIN := node_modules/.bin
-DTS := lodash/lodash moment/moment node/node react/react
+DTS := async/async lodash/lodash moment/moment node/node react/react
 
 all: app.js site.css
 
@@ -13,6 +13,9 @@ $(BIN)/tsc $(BIN)/lessc $(BIN)/cleancss $(BIN)/watsh:
 
 %.js: %.ts type_declarations $(BIN)/tsc
 	$(BIN)/tsc -m commonjs -t ES5 $<
+
+%.js: %.tsx type_declarations $(BIN)/tsc
+	$(BIN)/tsc --jsx react -m commonjs -t ES5 $<
 
 %.css: %.less $(BIN)/lessc $(BIN)/cleancss
 	$(BIN)/lessc $< | $(BIN)/cleancss --keep-line-breaks --skip-advanced -o $@
