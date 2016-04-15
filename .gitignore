@@ -1,2 +1,14 @@
+components/App.js
+components/Compare.js
+components/DateTime.js
+components/Deduplicate.js
+components/NotFound.js
+components/Pair.js
+components/PathEditor.js
+components/Rename.js
+actions.js
 app.js
-diff.js
+fs-helpers.js
+store.js
+util.js
+demo/

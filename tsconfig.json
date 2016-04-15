@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "ES6"
+  },
+  "files": [
+    "node_modules/declarations/async/async.d.ts",
+    "node_modules/declarations/history/history.d.ts",
+    "node_modules/declarations/moment/moment-node.d.ts",
+    "node_modules/declarations/node/node.d.ts",
+    "node_modules/declarations/react-redux/react-redux-2.1.2.d.ts",
+    "node_modules/declarations/react-router-redux/react-router-redux.d.ts",
+    "node_modules/declarations/react-router/react-router.d.ts",
+    "node_modules/declarations/react/react-dom.d.ts",
+    "node_modules/declarations/react/react.d.ts",
+    "components/App.tsx",
+    "components/Compare.tsx",
+    "components/DateTime.tsx",
+    "components/Deduplicate.tsx",
+    "components/NotFound.tsx",
+    "components/Pair.tsx",
+    "components/PathEditor.tsx",
+    "components/Rename.tsx",
+    "actions.ts",
+    "app.tsx",
+    "fs-helpers.ts",
+    "store.ts",
+    "util.ts"
+  ]
+}

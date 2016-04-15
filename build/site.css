@@ -1,0 +1,46 @@
+body{margin:0}
+table{border-spacing:0;border-collapse:collapse}
+table td,table th{font-size:100%;text-align:left}
+h1,h2,h3,h4,h5,h6{margin:1ex 0}
+button,code,div,input,main,nav,section,span,textarea{box-sizing:border-box}
+.hfill{width:100%}
+body{background-color:#FDFDFD;font:12px Arial,sans-serif}
+nav{display:flex;padding:0 4px;border-bottom:1px solid #AAA}
+nav a{margin:2px 2px -1px;padding:2px 4px;border:1px solid #AAA;border-width:1px 1px 0;border-radius:3px 3px 0 0;text-decoration:none}
+nav a.active{background-color:#FDFDFD}
+nav a:hover{text-decoration:underline}
+form{display:inline}
+textarea{font-family:monospace;width:100%;min-height:100px}
+input.short{width:50px}
+input.code{font-size:12px}
+.code,code{font-family:monospace;white-space:pre-wrap}
+.code.input,code.input{border:2px solid transparent;padding:1px;display:inline-block}
+.error{color:red}
+.clickable{cursor:pointer}
+.clickable:hover{text-decoration:underline}
+.inline{display:inline-block}
+table.fill{width:100%}
+table.padded tr td:first-child,table.padded tr th:first-child{padding-left:5px}
+table.padded tr td:last-child,table.padded tr th:last-child{padding-right:5px}
+table.lined tbody td{border-top:1px solid #EEE}
+table.striped tbody tr:nth-child(odd){background-color:#FCFCFC}
+table.striped tbody tr:nth-child(even){background-color:#FEFEFE}
+table>tbody.duplicate-group{border-top:1px solid #c8c8c8}
+table>tbody.duplicate-group tr{color:#c80000}
+table>tbody.duplicate-group tr:first-child{color:#646464}
+table td.number,table th.number{text-align:right}
+section{margin-top:5px;margin-bottom:5px}
+section>button,section>code,section>div,section>form,section>h1,section>h2,section>h3,section>h4,section>h5,section>h6,section>input,section>p,section>span{margin-left:5px;margin-right:5px}
+section>section{margin-left:0;margin-right:0}
+.cols{display:flex}
+.cols.fill{justify-content:space-between}
+.cols-2{display:flex}
+.cols-2>div{width:50%}
+.cols-3{display:flex;justify-content:space-between}
+.cols-3>div{width:30%}
+.indent{padding-left:4ch}
+.function-body{margin:0 2ch}
+.pair{border-top:1px solid #c8c8c8}
+.pair .equal{color:#646464}
+.pair .insert{color:#00c800}
+.pair .delete{color:#c80000}

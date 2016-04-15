@@ -9,20 +9,33 @@
   ],
   "version": "0.0.1",
   "homepage": "https://github.com/chbrown/fs-ui",
-  "repository": "git://github.com/chbrown/fs-ui.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chbrown/fs-ui.git"
+  },
   "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
   "license": "MIT",
+  "private": true,
   "main": "main.js",
-  "devDependencies": {
+  "dependencies": {
     "async": "*",
-    "clean-css": "*",
-    "flow-copy": "*",
-    "less": "*",
-    "lodash": "*",
+    "fs-metadata": "*",
+    "history": "*",
     "moment": "*",
-    "notify-ui": "*",
     "react": "*",
-    "typescript": "next",
-    "watsh": "*"
+    "react-dom": "*",
+    "react-redux": "*",
+    "react-router": "*",
+    "react-router-redux": "*",
+    "redux": "*",
+    "redux-thunk": "*",
+    "tarry": "*"
+  },
+  "devDependencies": {
+    "clean-css": "*",
+    "declarations": "*",
+    "electron-prebuilt": "*",
+    "less": "*",
+    "typescript": "*"
   }
 }
